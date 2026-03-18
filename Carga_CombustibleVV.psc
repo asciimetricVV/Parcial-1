@@ -1,5 +1,5 @@
 Proceso Carga_Combustible
-	Definir Ben , NumBen , A Como Entero;
+	Definir Ben , NumBen , A Como Real;
 	Definir Resultado Como Real;
 	Definir yn Como Caracter;
 	Escribir "BIENVENIDO A (insertar nombre)";
@@ -25,7 +25,7 @@ Proceso Carga_Combustible
 			SiNo
 				Escribir NumBen ," litros recargados. Nivel actual ", A, " litros. Gracias por cargar con nosotros!!";
 			FinSi
-			
+	Resultado = NumBen * 230;
 	FinSi	
 	Escribir "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%";
 	Escribir " GRACIAS POR COMPRAR CON NOSOTROS ";
@@ -34,6 +34,13 @@ Proceso Carga_Combustible
 	Escribir "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$";
 	Escribir "$$$$$$$ BOLETA ELECTRONICA $$$$$$$";
 	Escribir "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$";
+	Escribir "                                  ";
+	Escribir "    COMBUSTIBLE CARGADO: ", NumBen," LITROS";
+	Escribir "            PRECIO POR LITRO: $230";
+	Escribir "              TOTAL A PAGAR: $",Resultado;
+	Escribir "                                  ";
+	Escribir "                                  ";
+	Escribir "                                  ";
 	Escribir "                                  ";
 	Escribir "                                  ";
 	Escribir "                                  ";
@@ -44,6 +51,5 @@ Proceso Carga_Combustible
 	Escribir "                                  ";
 	Escribir "si ve esta linea se acabó el papel";
 	Escribir "         de la maquina            ";
-	
 	
 	
