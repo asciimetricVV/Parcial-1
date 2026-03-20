@@ -52,4 +52,4 @@ Proceso Carga_Combustible
 	Escribir "si ve esta linea se acabó el papel";
 	Escribir "         de la maquina            ";
 	
-	
+FinProceso
