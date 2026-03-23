@@ -17,23 +17,23 @@ Proceso Cafe
 		Leer ab;
 		Segun ab Hacer
 		1:
-			Escribir "Combo 1 seleccionado, valor $1000, est� seguro/a de su eleccion? (s/n)";
+			Escribir "Combo 1 seleccionado, valor $1000, esta seguro/a de su eleccion? (s/n)";
 			Leer sn;
 			ab<-a;
 		2:
-			Escribir "Combo 2 seleccionado, valor $1200, est� seguro/a de su eleccion? (s/n)";
+			Escribir "Combo 2 seleccionado, valor $1200, esta seguro/a de su eleccion? (s/n)";
 			Leer sn;
 			ab<-b;
 		3:
-			Escribir "Combo 3 seleccionado, valor $1500, est� seguro/a de su eleccion? (s/n)";
+			Escribir "Combo 3 seleccionado, valor $1500, esta seguro/a de su eleccion? (s/n)";
 			Leer sn;
 			ab<-c;
 		4:	
-			Escribir "Combo 4 seleccionado, valor $2000, est� seguro/a de su eleccion? (s/n)";
+			Escribir "Combo 4 seleccionado, valor $2000, esta seguro/a de su eleccion? (s/n)";
 			Leer sn;
 			ab<-d;
 		5:
-			Escribir "Combo 5 seleccionado, valor $5000, est� seguro/a de su eleccion? (s/n)";
+			Escribir "Combo 5 seleccionado, valor $5000, esta seguro/a de su eleccion? (s/n)";
 			Leer sn;
 			ab<-e;
 		De Otro Modo:
