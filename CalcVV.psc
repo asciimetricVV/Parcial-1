@@ -1,9 +1,17 @@
 Proceso Calc
-	Definir N1 , N2 , x Como Entero;
-	Definir Resultado Como Real;
+	Definir  x Como Entero;
+	Definir N1 , N2 , Resultado Como Real;
 	
-	Escribir "1.- [Suma] 2.- [Resta] 3.- [Division] Otro.- [Multiplicacion]";
-	Leer x;
+	Repetir 
+		Escribir "1.- [Suma] 2.- [Resta] 3.- [Division] 4.- [Multiplicacion]";
+		Leer x;
+		Si 0 > x o x > 5  Entonces
+			Escribir "Intente nuevamente";
+			
+		FinSi
+    Hasta Que 0< x y x < 5
+	
+	
 	
 	Escribir "Insertar primer numero";
 	Leer N1;
@@ -12,14 +20,23 @@ Proceso Calc
 	Segun x Hacer
 		1:
 			Resultado = N1 + N2;
+			Escribir "Tu resultado es " , Resultado ;
 		2:
 			Resultado = N1 - N2;
+			Escribir "Tu resultado es " , Resultado ;
 		3:
-			Resultado = N1 / N2;
-		De Otro Modo: 
+			Si N2 <> 0 Entonces
+				Resultado = N1 / N2;
+			FinSi
+			Escribir "Tu resultado es " , Resultado ;
+		4: 	
 			Resultado = N1 * N2;
+			Escribir "Tu resultado es " , Resultado ;
+		De Otro Modo: 
+			//Esta parte queda obsoleta debido a la linea 5
+			Escribir "SYNTAX ERROR";
 	FinSegun
 	
-	Escribir "Tu resultado es " , Resultado ;
+	
 	
 FinProceso
